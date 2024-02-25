@@ -32,33 +32,6 @@ This project is a simple command-line application for managing YouTube videos us
     python youtube_manager.py
     ```
 
-### Usage
-
-1. **List Videos**:
-   - Select option `1` to list all videos currently stored in the database.
-
-2. **Add Videos**:
-   - Select option `2` to add a new video.
-   - Enter the video name and duration when prompted.
-
-3. **Update Videos**:
-   - Select option `3` to update an existing video.
-   - First, list all videos to find the ID of the video you want to update.
-   - Then, enter the video ID, updated name, and duration when prompted.
-
-4. **Delete Videos**:
-   - Select option `4` to delete a video.
-   - First, list all videos to find the ID of the video you want to delete.
-   - Then, enter the video ID when prompted.
-
-5. **Exit App**:
-   - Select option `5` to exit the application.
-
-### Dependencies
-
-- Python 3.x
-- sqlite3
-
 ----
 
 ## MongoDB Project README.md
@@ -118,6 +91,7 @@ This project is a simple command-line application for managing YouTube videos us
 ### Dependencies
 
 - Python 3.x
+- sqlite3
 - pymongo
 
 
